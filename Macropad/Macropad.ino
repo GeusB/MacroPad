@@ -18,7 +18,6 @@ int16_t last1, value1; // variables for current and last rotation value
 int16_t last2, value2;
 byte count = 1;
 
-
 void timerIsr() {
   encoder1->service();
   encoder2->service();
